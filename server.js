@@ -4,6 +4,7 @@ const app = express();
 const hbs = require('hbs');
 require('./hbs/helpers');
 
+// process.env-POrt no existe en local
 const port = process.env.PORT || 3000;
 
 // middleware para que se ejecute no importa lo que se pida
